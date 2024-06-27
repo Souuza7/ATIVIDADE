@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Usando o DOM em um arquivo html</h1>
+    <div id="saida"></div><!-- este elemento "DIV" tem uma ID chamada "saida"-->
+    <script>/* Vamos criar uma variavel chamada mensagem e ela vai receber um texto*/
+            var saida = document.querySelector("#saida");
+            var mensagem = "";
+        /* A linha acima declara uma variável chamada "saida" e
+        utiliza um método para selecionar o elemento ID "saida".
+        */
+        for(var i = 1; i<=1000; i++){
+            mensagem = mensagem + " i: " + i + "<br>";
+        }
+        saida.innerHTML = mensagem;
+       /* na linha acima o elemento "saida" vai inserir a "mensagem" usando o metodo innerHTML */
+
+    </script>
+</body>
+</html>

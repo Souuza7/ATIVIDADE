@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini calculadora</title>
+</head>
+<body>
+       <!--Vamos criar nossos botões -->
+       <button onclick="soma()"></button>
+       <button onclick="sub()"></button>
+       <button onclick="mult()"></button>
+       <button onclick="div()"</button>
+
+   <!--Vamos criar nossa saída -->
+   <div id="saida"></div>
+   
+   <!-- Código Script onde criaremps nossas funções -->
+   <script>
+           let n = parseFloat(prompt("Digite o valor inicial"));
+            let cont = "0";
+            let saida = document.querySelector("#Saida");
+
+       saida.innerHTML = n;
+
+       cont = parseFloat(prompt("Digite o valor para somar"));
+       n += cont;
+       saida.innerHTML = n;
+       </script>
+</body>
+</html>

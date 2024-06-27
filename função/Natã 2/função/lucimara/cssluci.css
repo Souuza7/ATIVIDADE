@@ -1,0 +1,9 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+}
+h2{
+    color: blue;
+    font-size:50px;
+    text-shadow: 2px 2px 10px white;
+}

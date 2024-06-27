@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabuada</title>
+</head>
+
+<body>
+    <script>
+        let vezes = parseInt(prompt("Digite a quantidade de vezes que você quer digitar"));
+        let total = 0
+
+        for(i=0; i < vezes; i++){
+            let numero = parseInt(prompt("Qual numero você quer digitar"))
+            document.write("Numero digitado:", numero, "<br>")
+            total = numero + total
+        }
+        document.write("<br>", total)
+    </script>
+</body>
+</html>

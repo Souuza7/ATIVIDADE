@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabuada</title>
+</head>
+<body>
+    <script>
+let total = 0;
+
+const numValues = prompt("Quantos numeros você quer?");
+
+const numValuesNum = Number(numValues);
+
+
+for (let i = 1; i <= numValuesNum; i++) {
+
+  const num = prompt(`Enter number ${i}:`);
+  
+  const numNum = Number(num);
+  
+  total += numNum;
+}
+
+document.write(`O resultado da soma é: ${total}`);
+    </script>
+</body>
+</html>
